@@ -20,6 +20,10 @@
 
 ## Understanding actions
 
+<img width="1440" alt="Screenshot 2023-09-19 at 2 45 08 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/71bf0fe9-1637-4384-8b65-b9778a8b0adb">
+
+
+
 
 
 
