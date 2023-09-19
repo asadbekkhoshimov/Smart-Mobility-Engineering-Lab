@@ -22,6 +22,12 @@
 
 <img width="1440" alt="Screenshot 2023-09-19 at 2 45 08 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/71bf0fe9-1637-4384-8b65-b9778a8b0adb">
 
+## Using rqt_console
+
+<img width="1280" alt="Screenshot 2023-09-19 at 2 53 43 PM (2)" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/1b03dc87-d968-4a5c-a961-ebb1803c7e72">
+<img width="1440" alt="Screenshot 2023-09-19 at 2 53 43 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/c685027c-062f-4cb8-8d90-af2672d505a5">
+
+
 
 
 
