@@ -14,4 +14,11 @@
 
 <img width="1440" alt="Screenshot 2023-09-19 at 2 21 07 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/f6600bcc-a2fd-4f29-8ced-54bc316a0477">
 
+## Understanding parameters
+
+
+## Understanding actions
+
+
+
 
