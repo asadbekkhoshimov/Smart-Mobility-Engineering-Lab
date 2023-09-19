@@ -30,9 +30,11 @@
 ## Launching nodes
 
 
+<img width="1440" alt="Screenshot 2023-09-19 at 2 58 43 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/7f97f7d9-854e-486d-bcf5-de3b842af773">
+
+
+## Recording and playing back
+
 ![Uploading Screenshot 2023-09-19 at 2.58.43 PM.png…]()
-
-
-
 
 
