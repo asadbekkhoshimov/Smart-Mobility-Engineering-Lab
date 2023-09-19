@@ -16,6 +16,7 @@
 
 ## Understanding parameters
 
+<img width="1440" alt="Screenshot 2023-09-19 at 2 34 54 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/bfa17c15-ddc8-46ed-9e07-1edc19277dd9">
 
 ## Understanding actions
 
