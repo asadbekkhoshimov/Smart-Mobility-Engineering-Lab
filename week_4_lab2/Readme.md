@@ -17,3 +17,8 @@
 ## python_subscriber and publisher 
 
 <img width="1338" alt="Screenshot 2023-09-22 at 6 07 45 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/bc8a25e0-acd5-4752-947b-33d4bdd92648">
+
+
+## Create working_with_c++.sh
+
+<img width="830" alt="Screenshot 2023-09-22 at 6 25 52 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/65a7c49f-9969-48c3-b04f-b34faee81910">
