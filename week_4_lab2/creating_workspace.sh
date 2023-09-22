@@ -1,33 +1,31 @@
 #!/bin/bash
 
-# Create the ROS 2 workspace
+# Step 1: Source ROS 2 environment (replace with your actual ROS 2 setup script)
+source /path/to/your/ros2/install/setup.bash
+
+# Step 2: Create a new directory for the workspace
 mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws
+cd ~/ros2_ws/src
 
-# Clone the examples repository
-git clone https://github.com/ros2/examples src/examples -b humble
+# Step 3: Clone the sample repo if it doesn't exist
+if [ ! -d "ros_tutorials" ]; then
+    git clone https://github.com/ros/ros_tutorials.git -b humble
+fi
 
-# Source the ROS 2 environment
-source /path/to/your/ros2/install/setup.bash  # Replace with the actual path
+# Step 4: Resolve dependencies
+rosdep install --from-paths . --ignore-src -r -y
 
-# Build the workspace
-colcon build --symlink-install
+# Step 5: Build the workspace with colcon
+colcon build
 
-# Run tests
-colcon test
+# Step 6: Source the overlay
+source ~/ros2_ws/install/local_setup.bash
 
-# Source the environment
-source install/setup.bash
-
-# Run a demo
-ros2 run examples_rclcpp_minimal_subscriber subscriber_member_function &
-ros2 run examples_rclcpp_minimal_publisher publisher_member_function &
-
-# Sleep for a few seconds to allow the demo to run
-sleep 5
+# Step 7: Modify the overlay (optional)
+# You can add any modifications here, such as changing package contents
 
 
 # Print a message indicating the script has completed
-echo "ROS 2 colcon tutorial and screenshot capture completed."
+echo "ROS 2 workspace creation and screenshot capture completed."
 
 # You can add more commands or customize the script as needed
