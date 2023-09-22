@@ -14,3 +14,6 @@
 
 <img width="1319" alt="Screenshot 2023-09-22 at 5 56 22 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/e38c1a4a-211a-4d2d-b3c2-9fd4a1e22543">
 
+## python_subscriber and publisher 
+
+<img width="1338" alt="Screenshot 2023-09-22 at 6 07 45 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/bc8a25e0-acd5-4752-947b-33d4bdd92648">
