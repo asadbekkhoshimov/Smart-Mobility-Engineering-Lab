@@ -40,5 +40,94 @@
 ![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/2d78dc36-71bd-4f04-a547-e3089e3583fb)
 
 
-        
+
+## Writing an action server and client (C++)
+
+    Source ROS 2 Installation:
+        You need to source your ROS 2 installation to make ROS 2 commands and packages available in your terminal. Replace 'foxy' with your ROS 2 version if necessary.
+
+    Navigate to Your ROS 2 Workspace:
+        Change the current directory to your ROS 2 workspace where the action_tutorials_cpp package is located. Replace '~/ros2_ws' with the actual path to your workspace.
+
+    Run the Fibonacci Action Server:
+        Start the Fibonacci action server in the background and store its process ID (PID) in the SERVER_PID variable. This step simulates running the server.
+
+    Run the Fibonacci Action Client:
+        Run the Fibonacci action client, which will communicate with the action server.
+
+    Wait for Action Client and Server Completion:
+        Use the wait command to wait for the action server (with PID stored in SERVER_PID) to complete. This ensures that both the action server and client have finished executing.
+
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/9b3dea05-f7ca-4cf0-94c0-eadd6b97f2db)
+
+
+## Writing an action server and client (Python)
+
+Running the ROS 2 Fibonacci Action Server and Client
+
+This guide explains how to use the run_fibonacci_action.sh shell script to simplify the setup and execution of a ROS 2 Action Server and Action Client for computing the Fibonacci sequence. Follow these steps:
+
+Step 1: Source ROS 2 Environment
+
+    Source your ROS 2 environment. Be sure to adjust the path if necessary to match your ROS 2 installation.
+
+source /opt/ros/foxy/setup.bash
+
+Step 2: Create a Workspace
+
+    Check if a ROS 2 workspace directory exists in your home directory. If not, create one.
+
+workspace_dir=~/ros2_ws
+if [ ! -d "$workspace_dir" ]; then
+  mkdir -p $workspace_dir/src
+fi
+
+Step 3: Navigate to the Workspace
+
+    Navigate to the created workspace directory.
+
+cd $workspace_dir
+
+Step 4: Clone Action Tutorials Repository
+
+    Check if the action_tutorials repository from ROS 2 examples is already cloned in the workspace's src directory. If not, clone the repository.
+
+if [ ! -d "$workspace_dir/src/action_tutorials" ]; then
+  git clone https://github.com/ros2/examples $workspace_dir/src/action_tutorials
+fi
+
+Step 5: Build the Workspace
+
+    Build the ROS 2 workspace using colcon.
+
+colcon build
+
+Step 6: Source the Workspace
+
+    Source the workspace to enable the ROS 2 environment to recognize the built packages.
+
+source $workspace_dir/install/setup.bash
+
+Step 7: Run the Fibonacci Action Server
+
+    Start the Fibonacci action server using ros2 run. The server calculates the Fibonacci sequence.
+
+ros2 run action_tutorials fibonacci_action_server &
+
+Step 8: Sleep for Initialization
+
+    Pause for 2 seconds to allow the action server to initialize.
+
+
+sleep 2
+
+Step 9: Run the Fibonacci Action Client
+
+    Run the Fibonacci action client, which sends a goal request to the server and receives the computed sequence.
+
+
+ros2 run action_tutorials fibonacci_action_client
+
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/7716b801-1158-48a0-95d6-b4a97f67b8e8)
+
 
