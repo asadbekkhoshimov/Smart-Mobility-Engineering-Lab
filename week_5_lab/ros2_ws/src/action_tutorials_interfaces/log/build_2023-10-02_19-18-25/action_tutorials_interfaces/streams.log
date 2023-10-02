@@ -1,0 +1,60 @@
+[0.033s] Invoking command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces': /usr/bin/cmake /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces
+[0.265s] -- The C compiler identification is GNU 9.4.0
+[0.444s] -- The CXX compiler identification is GNU 9.4.0
+[0.457s] -- Check for working C compiler: /usr/bin/cc
+[0.575s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.577s] -- Detecting C compiler ABI info
+[0.697s] -- Detecting C compiler ABI info - done
+[0.716s] -- Detecting C compile features
+[0.716s] -- Detecting C compile features - done
+[0.724s] -- Check for working CXX compiler: /usr/bin/c++
+[0.871s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.874s] -- Detecting CXX compiler ABI info
+[1.002s] -- Detecting CXX compiler ABI info - done
+[1.021s] -- Detecting CXX compile features
+[1.022s] -- Detecting CXX compile features - done
+[1.032s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.079s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.386s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.454s] Error parsing '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/package.xml':
+[1.626s] Traceback (most recent call last):
+[1.626s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.626s]     root = dom.parseString(data)
+[1.626s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[1.626s]     return expatbuilder.parseString(string)
+[1.626s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[1.627s]     return builder.parseString(string)
+[1.627s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[1.627s]     parser.Parse(string, True)
+[1.627s] xml.parsers.expat.ExpatError: junk after document element: line 20, column 0
+[1.627s] 
+[1.627s] During handling of the above exception, another exception occurred:
+[1.627s] 
+[1.627s] Traceback (most recent call last):
+[1.627s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.628s]     main()
+[1.628s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.628s]     raise e
+[1.628s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.628s]     package = parse_package_string(
+[1.628s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.629s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.629s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/package.xml':
+[1.629s] The manifest contains invalid XML:
+[1.629s] junk after document element: line 20, column 0
+[1.660s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.661s]   execute_process(/usr/bin/python3
+[1.661s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.661s]   /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/package.xml
+[1.661s]   /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/ament_cmake_core/package.cmake)
+[1.662s]   returned error code 1
+[1.662s] Call Stack (most recent call first):
+[1.662s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.662s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.663s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[1.663s] 
+[1.663s] 
+[1.663s] -- Configuring incomplete, errors occurred!
+[1.663s] See also "/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[1.669s] Invoked command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/build/action_tutorials_interfaces' returned '1': /usr/bin/cmake /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_5_lab/ros2_ws/src/action_tutorials_interfaces/install/action_tutorials_interfaces
