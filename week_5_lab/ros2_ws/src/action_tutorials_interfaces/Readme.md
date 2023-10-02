@@ -131,3 +131,56 @@ ros2 run action_tutorials fibonacci_action_client
 ![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/7716b801-1158-48a0-95d6-b4a97f67b8e8)
 
 
+## Composing Non-Node Derived Components
+This README provides step-by-step instructions for using the provided shell script, run_composition_demos.sh, to run ROS 2 composition demos. These demos demonstrate how to compose multiple nodes into a single process using various techniques.
+Prerequisites
+
+Before running the composition demos, make sure you have the following prerequisites:
+
+    ROS 2 Foxy installed on your system.
+    A catkin workspace (commonly named ros2_ws) set up.
+
+Steps
+
+Follow these steps to run the ROS 2 composition demos:
+
+    Save the provided shell script, run_composition_demos.sh, to your local directory.
+
+    Make the shell script executable by running the following command in your terminal:
+
+    bash
+
+chmod +x run_composition_demos.sh
+
+Execute the shell script by running:
+
+bash
+
+./run_composition_demos.sh
+
+This script automates the following steps:
+
+    Sources your ROS 2 environment to set up necessary environment variables.
+    Creates a catkin workspace directory if it doesn't already exist and navigates to it.
+    Clones the action tutorials repository from GitHub into the workspace (if not already cloned).
+    Builds the workspace using colcon build.
+    Sources the workspace to set up environment variables for the built packages.
+
+The script will then execute a series of composition demos:
+
+    Discover available components: This command lists all available components in the workspace using ros2 component types.
+
+    Run-time composition using ROS services with a publisher and subscriber: Starts a component container and loads the Talker and Listener components. It shows the loaded components using ros2 component list.
+
+    Run-time composition using ROS services with a server and client: Starts a component container and loads the Server and Client components. It shows the loaded components using ros2 component list.
+
+    Compile-time composition using ROS services: Executes a compile-time composition demo that runs the Talker and Listener components together.
+
+    Run-time composition using dlopen: Executes a run-time composition demo using dynamic loading of components.
+
+    Composition using launch actions: Demonstrates composition using a launch file.
+
+After running the demos, the script will wait for user input, and you can press Enter to exit the script.
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/c36c39e9-73c8-4fe1-9f95-553605cf9b5d)
+
+
