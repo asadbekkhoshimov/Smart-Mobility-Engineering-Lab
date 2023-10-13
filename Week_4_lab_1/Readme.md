@@ -1,5 +1,49 @@
 ## Using turtlesim, ros2, and rqt
 
+This repository contains a beginner-friendly tutorial on getting started with ROS 2 by using the Turtlesim package and RQT tools. The tutorial walks you through the installation of Turtlesim, how to start and use it, and introduces you to the basics of RQT for working with ROS 2 elements.
+
+## Tutorial Contents
+# Academic README - ROS 2 Turtlesim and RQT Tutorial
+
+## Introduction
+
+This repository encapsulates my academic exploration of the ROS 2 Turtlesim and RQT tutorial. As a student and novice in the field of Robotics, this tutorial served as an invaluable pedagogical resource for understanding the core principles of ROS 2, covering nodes, topics, services, and remapping.
+
+## Tutorial Overview
+
+### Background
+
+In the realm of robotics and automation, Turtlesim represents a minimalist simulator. This tutorial leverages Turtlesim to elucidate fundamental ROS 2 concepts, shedding light on the orchestration and interaction mechanisms within the ROS ecosystem. Further, we explore the ROS 2 tool, which facilitates system management and introspection, and RQT, a graphical user interface for ROS 2 that streamlines manipulation of ROS 2 components.
+
+### Prerequisites
+
+To ensure a seamless learning experience, I meticulously followed the guidance provided in the "Configuring Environment" tutorial, prepping my environment with requisite dependencies.
+
+### Task 1: Installing Turtlesim
+
+Sourcing setup files and the installation of the Turtlesim package for ROS 2 were the inaugural steps in my journey.
+
+### Task 2: Initiating Turtlesim
+
+Upon installation, launching the Turtlesim simulator welcomed me with a visually delightful environment, featuring a central turtle. The accompanying terminal messages, such as turtle names and spawn coordinates, augmented my understanding.
+
+### Task 3: Turtlesim Interaction
+
+In a separate terminal, I initiated a node responsible for controlling the turtle within the Turtlesim environment. Using keyboard inputs, the turtle embarked on its voyage, sketching a trail of its path, simulating real-world robot interactions.
+
+### Task 4: Installing RQT
+
+As I progressed, I extended my toolkit by installing RQT and its pertinent plugins, transforming my learning journey into a more user-centric and GUI-driven experience.
+
+### Task 5: Leveraging RQT
+
+Venturing into RQT, I delved into its Service Caller plugin, which facilitated interactions with Turtlesim. I demonstrated my newfound capabilities by creating a new turtle and even altering the pen color of the default turtle.
+
+### Task 6: Node Remapping
+
+The tutorial culminated with a lesson in remapping. I discovered the means to control multiple turtles independently by remapping the cmd_vel topic, a quintessential skill for those contemplating scenarios with multiple robotic entities.
+
+
 <img width="1174" alt="Screenshot 2023-09-19 at 1 15 42 PM" src="https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/e1fe2247-81c9-4aac-8fc9-60cb381c8f0c">
 
 ## Understanding nodes
