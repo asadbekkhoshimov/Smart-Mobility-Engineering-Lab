@@ -1,0 +1,15 @@
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/week_6/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml
