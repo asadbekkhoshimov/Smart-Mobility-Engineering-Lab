@@ -83,4 +83,28 @@ This script simplifies the setup of your ROS 2 workspace and allows for quick te
 ![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/d17a73b2-fb13-4f18-978b-fcd7980c801e)
 
 
+## Recording a bag from a node (C++)
+ChatGPT
+
+This script automates the process of creating a ROS 2 package that records data from a topic to a bag file. It also includes the creation of a C++ node to achieve this. After building the package, it runs the C++ node to record data from a specific topic. Additionally, it opens separate terminal windows for running various ROS 2 nodes and playing back the recorded bag file.
+
+Usage:
+
+    Save the script in your ROS 2 workspace.
+    Make it executable: chmod +x create_ros2_bag_recorder.sh.
+    Run: ./create_ros2_bag_recorder.sh.
+
+Follow the on-screen prompts to complete the setup.
+
+Prerequisites:
+
+    ROS 2 installation.
+    Basic ROS 2 knowledge.
+    Configured ROS 2 workspace.
+
+Notes:
+
+    Ensure your ROS 2 environment is set.
+    Modify the script as needed to adapt it to your specific requirements.
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/2bfcec97-4c02-4e0c-8d3c-614fad721942)
 
