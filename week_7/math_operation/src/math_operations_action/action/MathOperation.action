@@ -1,0 +1,7 @@
+# Define the goal message for the mathematical operation
+int64 a
+int64 b
+string operation
+---
+# Define the result message for the mathematical operation
+int64 result

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/math_operations_action/math_operations_action.egg-info/PKG-INFO
+../../../build/math_operations_action/math_operations_action.egg-info/SOURCES.txt
+../../../build/math_operations_action/math_operations_action.egg-info/dependency_links.txt
+../../../build/math_operations_action/math_operations_action.egg-info/entry_points.txt
+../../../build/math_operations_action/math_operations_action.egg-info/requires.txt
+../../../build/math_operations_action/math_operations_action.egg-info/top_level.txt
+../../../build/math_operations_action/math_operations_action.egg-info/zip-safe
+math_operations_action/__init__.py
+resource/math_operations_action
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/weather_advisor/weather_advisor.egg-info
+writing ../build/weather_advisor/weather_advisor.egg-info/PKG-INFO
+writing dependency_links to ../build/weather_advisor/weather_advisor.egg-info/dependency_links.txt
+writing entry points to ../build/weather_advisor/weather_advisor.egg-info/entry_points.txt
+writing requirements to ../build/weather_advisor/weather_advisor.egg-info/requires.txt
+writing top-level names to ../build/weather_advisor/weather_advisor.egg-info/top_level.txt
+writing manifest file '../build/weather_advisor/weather_advisor.egg-info/SOURCES.txt'
+reading manifest file '../build/weather_advisor/weather_advisor.egg-info/SOURCES.txt'
+writing manifest file '../build/weather_advisor/weather_advisor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aaaa/Desktop/week_7/build/weather_advisor/build
+creating /home/aaaa/Desktop/week_7/build/weather_advisor/build/lib
+creating /home/aaaa/Desktop/week_7/build/weather_advisor/build/lib/weather_advisor
+copying weather_advisor/__init__.py -> /home/aaaa/Desktop/week_7/build/weather_advisor/build/lib/weather_advisor
+running install
+running install_lib
+creating /home/aaaa/Desktop/week_7/install/weather_advisor/lib/python3.8/site-packages/weather_advisor
+copying /home/aaaa/Desktop/week_7/build/weather_advisor/build/lib/weather_advisor/__init__.py -> /home/aaaa/Desktop/week_7/install/weather_advisor/lib/python3.8/site-packages/weather_advisor
+byte-compiling /home/aaaa/Desktop/week_7/install/weather_advisor/lib/python3.8/site-packages/weather_advisor/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/aaaa/Desktop/week_7/install/weather_advisor/share/ament_index
+creating /home/aaaa/Desktop/week_7/install/weather_advisor/share/ament_index/resource_index
+creating /home/aaaa/Desktop/week_7/install/weather_advisor/share/ament_index/resource_index/packages
+copying resource/weather_advisor -> /home/aaaa/Desktop/week_7/install/weather_advisor/share/ament_index/resource_index/packages
+copying package.xml -> /home/aaaa/Desktop/week_7/install/weather_advisor/share/weather_advisor
+running install_egg_info
+Copying ../build/weather_advisor/weather_advisor.egg-info to /home/aaaa/Desktop/week_7/install/weather_advisor/lib/python3.8/site-packages/weather_advisor-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/aaaa/Desktop/week_7/build/weather_advisor/install.log'

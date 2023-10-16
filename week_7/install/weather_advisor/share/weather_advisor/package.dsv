@@ -1,0 +1,6 @@
+source;share/weather_advisor/hook/pythonpath.ps1
+source;share/weather_advisor/hook/pythonpath.dsv
+source;share/weather_advisor/hook/pythonpath.sh
+source;share/weather_advisor/hook/ament_prefix_path.ps1
+source;share/weather_advisor/hook/ament_prefix_path.dsv
+source;share/weather_advisor/hook/ament_prefix_path.sh

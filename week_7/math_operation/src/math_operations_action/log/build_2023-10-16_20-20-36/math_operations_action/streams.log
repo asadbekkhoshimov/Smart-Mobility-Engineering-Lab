@@ -1,0 +1,20 @@
+[1.112s] Invoking command in '/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action': PYTHONPATH=/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/prefix_override:/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/math_operations_action build --build-base /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build install --record /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/install.log --install-scripts $base/lib/math_operations_action --single-version-externally-managed
+[1.487s] running egg_info
+[1.488s] writing build/math_operations_action/math_operations_action.egg-info/PKG-INFO
+[1.488s] writing dependency_links to build/math_operations_action/math_operations_action.egg-info/dependency_links.txt
+[1.488s] writing entry points to build/math_operations_action/math_operations_action.egg-info/entry_points.txt
+[1.489s] writing requirements to build/math_operations_action/math_operations_action.egg-info/requires.txt
+[1.489s] writing top-level names to build/math_operations_action/math_operations_action.egg-info/top_level.txt
+[1.574s] reading manifest file 'build/math_operations_action/math_operations_action.egg-info/SOURCES.txt'
+[1.577s] writing manifest file 'build/math_operations_action/math_operations_action.egg-info/SOURCES.txt'
+[1.577s] running build
+[1.577s] running build_py
+[1.577s] running install
+[1.579s] running install_lib
+[1.582s] running install_data
+[1.583s] running install_egg_info
+[1.587s] removing '/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages/math_operations_action-0.0.0-py3.8.egg-info' (and everything under it)
+[1.588s] Copying build/math_operations_action/math_operations_action.egg-info to /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages/math_operations_action-0.0.0-py3.8.egg-info
+[1.590s] running install_scripts
+[1.627s] writing list of installed files to '/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/install.log'
+[1.673s] Invoked command in '/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action' returned '0': PYTHONPATH=/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/prefix_override:/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/math_operations_action build --build-base /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build install --record /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/install.log --install-scripts $base/lib/math_operations_action --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+creating build/math_operations_action/math_operations_action.egg-info
+writing build/math_operations_action/math_operations_action.egg-info/PKG-INFO
+writing dependency_links to build/math_operations_action/math_operations_action.egg-info/dependency_links.txt
+writing entry points to build/math_operations_action/math_operations_action.egg-info/entry_points.txt
+writing requirements to build/math_operations_action/math_operations_action.egg-info/requires.txt
+writing top-level names to build/math_operations_action/math_operations_action.egg-info/top_level.txt
+writing manifest file 'build/math_operations_action/math_operations_action.egg-info/SOURCES.txt'
+reading manifest file 'build/math_operations_action/math_operations_action.egg-info/SOURCES.txt'
+writing manifest file 'build/math_operations_action/math_operations_action.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build/lib
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build/lib/math_operations_action
+copying math_operations_action/__init__.py -> /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build/lib/math_operations_action
+running install
+running install_lib
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages/math_operations_action
+copying /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/build/lib/math_operations_action/__init__.py -> /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages/math_operations_action
+byte-compiling /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages/math_operations_action/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/share/ament_index
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/share/ament_index/resource_index
+creating /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/share/ament_index/resource_index/packages
+copying resource/math_operations_action -> /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/share/ament_index/resource_index/packages
+copying package.xml -> /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/share/math_operations_action
+running install_egg_info
+Copying build/math_operations_action/math_operations_action.egg-info to /home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/install/math_operations_action/lib/python3.8/site-packages/math_operations_action-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/aaaa/Desktop/week_7/math_operation/src/math_operations_action/build/math_operations_action/install.log'
