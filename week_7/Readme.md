@@ -12,8 +12,7 @@ The server node performs the actual mathematical operations based on the client'
 
 ### Interaction diagram
 
-![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/a8bcfb62-2906-4634-81df-13526c6c9a89)
-
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/b20c3cb2-14a3-42df-86ba-5c1e6cb6c7ee)
 
 
 If the division operation is requested, the server checks for division by zero.
