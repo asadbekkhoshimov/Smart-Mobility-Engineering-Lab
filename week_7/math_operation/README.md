@@ -116,8 +116,13 @@ if __name__ == '__main__':
 
 ### Example
 
-    Client Request: Addition of 5 and 3
-    Server Response: Result: 8
+  Client Request: Addition of 5 and 3
+  Server Response: Result: 8
+  
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/50d008d8-473f-43b2-9adc-3df154dcf0b8)
+
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/3c016b29-a81c-451c-b967-5db44e54022e)
+
 
     
 
