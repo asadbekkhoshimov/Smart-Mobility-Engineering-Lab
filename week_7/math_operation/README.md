@@ -24,13 +24,13 @@ How to Run
 
 ### ros2 run math_operation math_operation_server.py
 
-#!/usr/bin/env python3
+   #!/usr/bin/env python3
 
-import rclpy
-from rclpy.node import Node
-from math_operations_action_msgs.action import MathOperation
+   import rclpy
+   from rclpy.node import Node
+   from math_operations_action_msgs.action import MathOperation
 
-class MathOperationServer(Node):
+   class MathOperationServer(Node):
 
     def __init__(self):
         super().__init__('math_operation_server')
@@ -59,19 +59,19 @@ class MathOperationServer(Node):
         self.get_logger().info(f'Result: {result}')
         return MathOperation.Result(result=result)
 
-def main(args=None):
-    rclpy.init(args=args)
-    node = MathOperationServer()
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        pass
+   def main(args=None):
+       rclpy.init(args=args)
+       node = MathOperationServer()
+       try:
+           rclpy.spin(node)
+       except KeyboardInterrupt:
+           pass
 
-    node.destroy_node()
-    rclpy.shutdown()
+       node.destroy_node()
+       rclpy.shutdown()
 
-if __name__ == '__main__':
-    main()
+   if __name__ == '__main__':
+       main()
 
 
 ### Run the client node in another terminal:
