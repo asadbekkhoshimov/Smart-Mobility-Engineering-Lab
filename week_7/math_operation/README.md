@@ -77,7 +77,7 @@ How to Run
 ```
 ### Run the client node in another terminal:
 
-    ros2 run math_operation math_operation_client.py
+ros2 run math_operation math_operation_client.py
     
     ```
     
@@ -111,7 +111,9 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
 ```
+
 ### Example
 
     Client Request: Addition of 5 and 3
