@@ -5,10 +5,10 @@ Server (math_operation_server.py)
 
 The server node performs the actual mathematical operations based on the client's requests. It listens for incoming goals from clients and executes the requested operation. Supported operations include:
 
-    * Addition
-    * Subtraction
-    * Multiplication
-    * Division
+ * Addition
+ * Subtraction
+ * Multiplication
+ * Division
 
 If the division operation is requested, the server checks for division by zero.
 Client (math_operation_client.py)
@@ -77,6 +77,7 @@ How to Run
 ```
 ### Run the client node in another terminal:
 
+```
 
     ros2 run math_operation math_operation_client.py
     #!/usr/bin/env python3
@@ -109,10 +110,12 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
-Example
+```
+### Example
 
     Client Request: Addition of 5 and 3
     Server Response: Result: 8
+
+    
 
 Feel free to modify and extend this package for your own use cases. Enjoy experimenting with ROS 2!
