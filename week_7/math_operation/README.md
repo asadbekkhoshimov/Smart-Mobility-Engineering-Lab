@@ -16,13 +16,13 @@ Client (math_operation_client.py)
 The client node sends goal requests to the server to perform mathematical operations. The client specifies the operation type and provides two numbers for the operation.
 How to Run
 
-    Ensure you have ROS 2 installed on your system.
+* Ensure you have ROS 2 installed on your system.
 
-    Build your ROS 2 workspace using colcon or any preferred build tool.
+* Build your ROS 2 workspace using colcon or any preferred build tool.
 
-    Run the server node in one terminal:
+  ###  Run the server node in one terminal:
 
-### ros2 run math_operation math_operation_server.py
+ ros2 run math_operation math_operation_server.py
 
 ```
    #!/usr/bin/env python3
