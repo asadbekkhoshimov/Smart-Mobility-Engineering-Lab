@@ -5,10 +5,10 @@ Server (math_operation_server.py)
 
 The server node performs the actual mathematical operations based on the client's requests. It listens for incoming goals from clients and executes the requested operation. Supported operations include:
 
-    Addition
-    Subtraction
-    Multiplication
-    Division
+    * Addition
+    * Subtraction
+    * Multiplication
+    * Division
 
 If the division operation is requested, the server checks for division by zero.
 Client (math_operation_client.py)
@@ -22,19 +22,90 @@ How to Run
 
     Run the server node in one terminal:
 
-    bash
+### ros2 run math_operation math_operation_server.py
+    #!/usr/bin/env python3
 
-ros2 run math_operation math_operation_server.py
+import rclpy
+from rclpy.node import Node
+from math_operations_action_msgs.action import MathOperation
 
-Run the client node in another terminal:
+class MathOperationServer(Node):
 
-bash
+    def __init__(self):
+        super().__init__('math_operation_server')
+        self.action_server = self.create_action_server(MathOperation, 'math_operation', self.execute_callback)
+
+    async def execute_callback(self, goal_handle):
+        self.get_logger().info('Executing goal...')
+
+        # Perform the mathematical operation based on the goal values
+        operation_type = goal_handle.request.operation
+        a = goal_handle.request.a
+        b = goal_handle.request.b
+
+        if operation_type == 'addition':
+            result = a + b
+        elif operation_type == 'subtraction':
+            result = a - b
+        elif operation_type == 'multiplication':
+            result = a * b
+        elif operation_type == 'division':
+            if b != 0:
+                result = a / b
+            else:
+                return MathOperation.Result(status='Division by zero')
+
+        self.get_logger().info(f'Result: {result}')
+        return MathOperation.Result(result=result)
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MathOperationServer()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+
+### Run the client node in another terminal:
+
 
     ros2 run math_operation math_operation_client.py
+    #!/usr/bin/env python3
 
-    The client will send a goal to the server with the specified operation and numbers.
+import rclpy
+from rclpy.action import ActionClient
+from math_operations_action_msgs.action import MathOperation
 
-    The server will perform the requested operation and return the result.
+def main(args=None):
+    rclpy.init(args=args)
+    node = rclpy.create_node('math_operation_client')
+
+    client = ActionClient(node, MathOperation, 'math_operation')
+
+    goal_msg = MathOperation.Goal()
+    goal_msg.operation = 'addition'
+    goal_msg.a = 5
+    goal_msg.b = 3
+
+    future = client.send_goal_async(goal_msg)
+
+    rclpy.spin_until_future_complete(node, future)
+    if future.result() is not None:
+        result = future.result().result
+        node.get_logger().info(f'Result: {result}')
+    else:
+        node.get_logger().warning('Goal failed!')
+
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
 
 Example
 
