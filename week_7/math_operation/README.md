@@ -24,6 +24,7 @@ How to Run
 
 ### ros2 run math_operation math_operation_server.py
 
+```
    #!/usr/bin/env python3
 
    import rclpy
@@ -73,7 +74,7 @@ How to Run
    if __name__ == '__main__':
        main()
 
-
+```
 ### Run the client node in another terminal:
 
 
