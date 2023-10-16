@@ -10,6 +10,39 @@ The server node performs the actual mathematical operations based on the client'
  * Multiplication
  * Division
 
+### Interaction diagram
+
+  +------------------------+          +------------------------+
+  |                        |          |                        |
+  |     math_operation     |          |     math_operation     |
+  |        Client          |          |        Server          |
+  |                        |          |                        |
+  +----------+-------------+          +------------+-----------+
+             |                                       |
+             |                                       |
+             |           Send Goal Request           |
+             |-------------------------------------->|
+             |                                       |
+             |                                       |
+             |                                       |
+             |        Goal Request Processing        |
+             |<--------------------------------------|
+             |                                       |
+             |                                       |
+             |           Send Goal Result            |
+             |<--------------------------------------|
+             |                                       |
+             |                                       |
+             |                                       |
+             |                                       |
+  +----------v-------------+          +------------v-----------+
+  |                        |          |                        |
+  |       Result           |          |                        |
+  |      Displayed        |          |                        |
+  |                        |          |                        |
+  +------------------------+          +------------------------+
+
+
 If the division operation is requested, the server checks for division by zero.
 Client (math_operation_client.py)
 
