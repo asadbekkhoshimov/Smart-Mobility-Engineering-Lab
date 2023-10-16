@@ -77,9 +77,8 @@ How to Run
 ```
 ### Run the client node in another terminal:
 
-```
-
     ros2 run math_operation math_operation_client.py
+    ```
     #!/usr/bin/env python3
 
 import rclpy
