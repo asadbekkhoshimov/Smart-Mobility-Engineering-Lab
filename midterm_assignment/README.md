@@ -57,6 +57,9 @@ colcon build --packages-select fleet_management
 
 ```
 
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/05db48d4-7efc-4151-b330-66ac2e4cf578)
+
+
 Run ROS 2 Core:
 
 If not using a launch file, start the ROS 2 core system:
@@ -71,12 +74,17 @@ In a new terminal, run the server node:
 
 
     ros2 run fleet_management fleet_management_server_cli.py
+    
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/072b9757-a5f8-4491-92a3-9457cd8921b0)
 
 Run the Client Node:
 
 In another terminal, run the client node:
 
     ros2 run fleet_management fleet_management_client_cli.py
+
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/1a4eba67-6637-4fca-a06f-2efa9da189b8)
+
 
 ## Follow Instructions:
 
