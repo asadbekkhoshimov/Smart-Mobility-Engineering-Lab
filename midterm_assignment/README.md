@@ -45,13 +45,17 @@ Source ROS 2 Workspace:
 ```
 
 source /path/to/your/ros2_ws/install/setup.bash
+
 ```
+
 Build Your ROS 2 Workspace:
 
 ```
 
 colcon build --packages-select fleet_management
+
 ```
+
 Run ROS 2 Core:
 
 If not using a launch file, start the ROS 2 core system:
