@@ -33,7 +33,7 @@ ros2_ws/
 ```
 ### Codes:
 
-fleet_management_server_cli.py
+* fleet_management_server_cli.py
 
 ```
 
@@ -85,6 +85,75 @@ def main():
     except KeyboardInterrupt:
         node.get_logger().info('Action server stopped')
 
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+
+```
+* fleet_management_server_cli.py
+  
+```
+import rclpy
+from rclpy.action import ActionClient
+from fleet_management.action import FleetManagement
+from fleet_data import cities, trucks
+import time
+
+def main():
+    rclpy.init()
+    node = rclpy.create_node('fleet_management_client')
+
+    # Create an Action Client
+    action_client = ActionClient(node, FleetManagement, 'fleet_management')
+
+    # Display a list of cities to the user
+    print("American Cities:")
+    for city_num, city_name in cities.items():
+        print(f"{city_num}: {city_name}")
+
+    # Get user inputs
+    origin_city = int(input("From which City: "))
+    destination_city = int(input("Enter the destination: "))
+    load_tonnage = float(input("Enter the load weight(ton): "))
+
+    def send_request(origin_city, destination_city, load_tonnage):
+        goal = FleetManagement.Goal()
+        goal.origin_city = origin_city
+        goal.destination_city = destination_city
+        goal.load_tonnage = load_tonnage
+
+        future = action_client.send_goal_async(goal)
+
+        rclpy.spin_until_future_complete(node, future)
+
+        if future.result() is not None:
+            goal_handle = future.result()
+
+            if goal_handle.accepted:
+                print("Goal accepted, waiting for result...")
+                
+                print("From Seoul to gsgsfg/.gsf.gsf")
+
+                time.sleep(300)  # 5 minutes = 300 seconds
+
+
+
+                
+                result = goal_handle.result
+                selected_truck_info = trucks[result.selected_truck]
+                print(f'Selected Truck: {selected_truck_info["name"]}')
+                if result.vehicle_routes:
+                    print(f'Estimated Route: {result.vehicle_routes[0]}')
+                else:
+                    print("No vehicle routes available.")
+            else:
+                print("Goal was not accepted by the server.")
+        else:
+            print("Action client did not receive a valid result.")
+
+    send_request(origin_city, destination_city, load_tonnage)
     node.destroy_node()
     rclpy.shutdown()
 
