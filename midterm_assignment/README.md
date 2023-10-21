@@ -30,6 +30,7 @@ ros2_ws/
 │   └── ...
 │
 └── ...
+```
 
 * ros2_ws: Your ROS 2 workspace directory.
 * src: Source directory containing your ROS 2 packages.
