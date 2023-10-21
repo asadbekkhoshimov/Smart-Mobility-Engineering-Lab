@@ -236,6 +236,24 @@ trucks = {
 
 ```
 
+* FleetManagement.action
+
+```
+# fleet_management/actions/FleetManagement.action
+
+# Goal definition
+int32 origin_city
+int32 destination_city
+float32 load_tonnage
+---
+# Result definition
+string[] vehicle_routes
+int32 selected_truck
+---
+# Feedback
+int32 estimated_delivery_time
+
+```
 
 * ros2_ws: Your ROS 2 workspace directory.
 * src: Source directory containing your ROS 2 packages.
