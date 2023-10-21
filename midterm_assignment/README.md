@@ -37,7 +37,7 @@ ros2_ws/
 * fleet_management: A ROS 2 package containing the Fleet Management action files and Python scripts.
 * my_package: A custom Python module for storing data related to cities and trucks.
 
-Getting Started
+## Getting Started
 
 Before running the project, ensure that you have a working ROS 2 environment and your workspace is set up correctly. Follow these steps to run the project:
 
@@ -78,7 +78,7 @@ In another terminal, run the client node:
 
     ros2 run fleet_management fleet_management_client_cli.py
 
-Follow Instructions:
+## Follow Instructions:
 
 Respond to the client node's prompts for details like the current city, destination, load tonnage, and more.
 
