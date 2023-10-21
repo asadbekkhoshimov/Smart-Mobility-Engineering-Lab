@@ -1,0 +1,49 @@
+[0.037s] Invoking command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management -- -j4 -l4
+[0.091s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.136s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.136s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.458s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.570s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.892s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.188s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.188s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.188s]   fleet_management --arguments-file
+[1.189s]   /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management/rosidl_adapter__arguments__fleet_management.json
+[1.189s]   --output-dir
+[1.189s]   /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management/rosidl_adapter/fleet_management
+[1.189s]   --output-file
+[1.189s]   /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management/rosidl_adapter/fleet_management.idls)
+[1.189s]   returned error code 1:
+[1.189s] 
+[1.189s]   Traceback (most recent call last):
+[1.190s] 
+[1.190s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.190s]       return _run_code(code, main_globals, None,
+[1.190s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.190s]       exec(code, run_globals)
+[1.190s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.190s]       sys.exit(main())
+[1.190s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.191s]       abs_idl_file = convert_to_idl(
+[1.191s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[1.191s]       return convert_action_to_idl(
+[1.191s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[1.191s]       action = parse_action_string(package_name, input_file.stem, content)
+[1.191s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 886, in parse_action_string
+[1.191s]       raise InvalidActionSpecification(
+[1.192s] 
+[1.192s]   rosidl_adapter.parser.InvalidActionSpecification: Number of '---'
+[1.192s]   separators nonconformant with action definition
+[1.192s] 
+[1.192s] Call Stack (most recent call first):
+[1.192s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.192s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[1.193s] 
+[1.193s] 
+[1.193s] -- Configuring incomplete, errors occurred!
+[1.193s] See also "/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management/CMakeFiles/CMakeOutput.log".
+[1.202s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[1.204s] Invoked command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management -- -j4 -l4

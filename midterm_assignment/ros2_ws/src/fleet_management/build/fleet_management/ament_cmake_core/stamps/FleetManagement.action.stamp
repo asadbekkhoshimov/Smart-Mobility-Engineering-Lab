@@ -1,0 +1,9 @@
+int32 current_city
+int32 destination
+float32 load_tonnage
+float32 delivery_time
+
+---
+
+string[] vehicle_routes
+float32 completion_percentage

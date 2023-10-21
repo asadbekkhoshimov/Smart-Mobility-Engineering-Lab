@@ -1,0 +1,6 @@
+{
+  "package_name": "fleet_management",
+  "non_idl_tuples": [
+    "/home/aaaa/ros2_ws/src/fleet_management:action/FleetManagement.action"
+  ]
+}

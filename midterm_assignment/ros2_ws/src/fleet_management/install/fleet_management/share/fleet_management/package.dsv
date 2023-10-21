@@ -1,0 +1,14 @@
+source;share/fleet_management/hook/cmake_prefix_path.ps1
+source;share/fleet_management/hook/cmake_prefix_path.dsv
+source;share/fleet_management/hook/cmake_prefix_path.sh
+source;share/fleet_management/hook/ld_library_path_lib.ps1
+source;share/fleet_management/hook/ld_library_path_lib.dsv
+source;share/fleet_management/hook/ld_library_path_lib.sh
+source;share/fleet_management/hook/pythonpath.ps1
+source;share/fleet_management/hook/pythonpath.dsv
+source;share/fleet_management/hook/pythonpath.sh
+source;share/fleet_management/local_setup.bash
+source;share/fleet_management/local_setup.dsv
+source;share/fleet_management/local_setup.ps1
+source;share/fleet_management/local_setup.sh
+source;share/fleet_management/local_setup.zsh

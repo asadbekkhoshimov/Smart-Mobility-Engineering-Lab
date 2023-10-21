@@ -1,0 +1,125 @@
+[0.468s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.469s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff5436bac70>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff5436bac70>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff5436c5220>)
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.508s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aaaa/ros2_ws/src/fleet_management'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'fleet_management'
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.582s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.586s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/aaaa/ros2_ws/install
+[0.588s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/aaaa/colcon_ws/install
+[0.589s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/aaaa/ros2_ws/src/fleet_management/install
+[0.592s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/foxy
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'fleet_management' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] DEBUG:colcon.colcon_core.verb:Building package 'fleet_management' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management', 'merge_install': False, 'path': '/home/aaaa/ros2_ws/src/fleet_management', 'symlink_install': False, 'test_result_base': None}
+[0.718s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.724s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aaaa/ros2_ws/src/fleet_management' with build type 'ament_cmake'
+[0.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aaaa/ros2_ws/src/fleet_management'
+[0.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/aaaa/ros2_ws/src/fleet_management -DCMAKE_INSTALL_PREFIX=/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management
+[3.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/aaaa/ros2_ws/src/fleet_management -DCMAKE_INSTALL_PREFIX=/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management
+[3.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management -- -j4 -l4
+[10.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management -- -j4 -l4
+[10.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management
+[10.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fleet_management)
+[10.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaaa/ros2_ws/src/fleet_management/build/fleet_management' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aaaa/ros2_ws/install/your_package_name:/home/aaaa/ros2_ws/install/midterm_fleet_management:/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management:/home/aaaa/ros2_ws/install/py_srvcli:/home/aaaa/ros2_ws/install/py_pubsub:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_service:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_publisher:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_client:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_server:/home/aaaa/ros2_ws/install/examples_rclpy_minimal_action_client:/home/aaaa/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/aaaa/ros2_ws/src/fleet_management/build/fleet_management
+[10.712s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management' for CMake module files
+[10.713s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management' for CMake config files
+[10.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('fleet_management', 'cmake_prefix_path')
+[10.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/cmake_prefix_path.ps1'
+[10.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/cmake_prefix_path.dsv'
+[10.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/cmake_prefix_path.sh'
+[10.718s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/lib'
+[10.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('fleet_management', 'ld_library_path_lib')
+[10.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/ld_library_path_lib.ps1'
+[10.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/ld_library_path_lib.dsv'
+[10.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/ld_library_path_lib.sh'
+[10.722s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/bin'
+[10.722s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/lib/pkgconfig/fleet_management.pc'
+[10.722s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/lib/python3.8/site-packages'
+[10.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('fleet_management', 'pythonpath')
+[10.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/pythonpath.ps1'
+[10.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/pythonpath.dsv'
+[10.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/pythonpath.sh'
+[10.726s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/bin'
+[10.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.ps1'
+[10.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.dsv'
+[10.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.sh'
+[10.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.bash'
+[10.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.zsh'
+[10.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/colcon-core/packages/fleet_management)
+[10.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fleet_management)
+[10.827s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management' for CMake module files
+[10.828s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management' for CMake config files
+[10.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('fleet_management', 'cmake_prefix_path')
+[10.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/cmake_prefix_path.ps1'
+[10.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/cmake_prefix_path.dsv'
+[10.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/cmake_prefix_path.sh'
+[10.833s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/lib'
+[10.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('fleet_management', 'ld_library_path_lib')
+[10.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/ld_library_path_lib.ps1'
+[10.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/ld_library_path_lib.dsv'
+[10.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/ld_library_path_lib.sh'
+[10.836s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/bin'
+[10.837s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/lib/pkgconfig/fleet_management.pc'
+[10.837s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/lib/python3.8/site-packages'
+[10.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('fleet_management', 'pythonpath')
+[10.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/pythonpath.ps1'
+[10.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/pythonpath.dsv'
+[10.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/hook/pythonpath.sh'
+[10.841s] Level 1:colcon.colcon_core.environment:checking '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/bin'
+[10.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.ps1'
+[10.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.dsv'
+[10.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.sh'
+[10.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.bash'
+[10.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/fleet_management/package.zsh'
+[10.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaaa/ros2_ws/src/fleet_management/install/fleet_management/share/colcon-core/packages/fleet_management)
+[10.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.848s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.856s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaaa/ros2_ws/src/fleet_management/install/local_setup.ps1'
+[10.902s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aaaa/ros2_ws/src/fleet_management/install/_local_setup_util_ps1.py'
+[10.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaaa/ros2_ws/src/fleet_management/install/setup.ps1'
+[10.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaaa/ros2_ws/src/fleet_management/install/local_setup.sh'
+[10.920s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aaaa/ros2_ws/src/fleet_management/install/_local_setup_util_sh.py'
+[10.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaaa/ros2_ws/src/fleet_management/install/setup.sh'
+[10.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaaa/ros2_ws/src/fleet_management/install/local_setup.bash'
+[10.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaaa/ros2_ws/src/fleet_management/install/setup.bash'
+[10.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaaa/ros2_ws/src/fleet_management/install/local_setup.zsh'
+[10.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaaa/ros2_ws/src/fleet_management/install/setup.zsh'
