@@ -92,6 +92,9 @@ Respond to the client node's prompts for details like the current city, destinat
 
 Monitor Output:
 
+![image](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/570493c8-0ede-4e7d-81b3-2fc9d3e95d49)
+
+
 The server node performs calculations and provides feedback. The client node displays the output, including vehicle routes and completion percentages.
 
 Data and Configuration
