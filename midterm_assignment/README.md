@@ -69,25 +69,22 @@ Run the Server Node:
 
 In a new terminal, run the server node:
 
-```
 
-ros2 run fleet_management fleet_management_server_cli.py
-```
+    ros2 run fleet_management fleet_management_server_cli.py
+
 Run the Client Node:
 
 In another terminal, run the client node:
 
-```
-
     ros2 run fleet_management fleet_management_client_cli.py
-```
-    Follow Instructions:
 
-    Respond to the client node's prompts for details like the current city, destination, load tonnage, and more.
+Follow Instructions:
 
-    Monitor Output:
+Respond to the client node's prompts for details like the current city, destination, load tonnage, and more.
 
-    The server node performs calculations and provides feedback. The client node displays the output, including vehicle routes and completion percentages.
+Monitor Output:
+
+The server node performs calculations and provides feedback. The client node displays the output, including vehicle routes and completion percentages.
 
 Data and Configuration
 
