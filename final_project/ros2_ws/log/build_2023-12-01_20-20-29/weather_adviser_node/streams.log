@@ -1,0 +1,41 @@
+[0.984s] Invoking command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/src/weather_adviser_node': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/weather_adviser_node build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/install.log --install-scripts $base/lib/weather_adviser_node --single-version-externally-managed
+[1.318s] running egg_info
+[1.319s] creating ../../build/weather_adviser_node/weather_adviser_node.egg-info
+[1.319s] writing ../../build/weather_adviser_node/weather_adviser_node.egg-info/PKG-INFO
+[1.320s] writing dependency_links to ../../build/weather_adviser_node/weather_adviser_node.egg-info/dependency_links.txt
+[1.320s] writing entry points to ../../build/weather_adviser_node/weather_adviser_node.egg-info/entry_points.txt
+[1.320s] writing requirements to ../../build/weather_adviser_node/weather_adviser_node.egg-info/requires.txt
+[1.320s] writing top-level names to ../../build/weather_adviser_node/weather_adviser_node.egg-info/top_level.txt
+[1.322s] writing manifest file '../../build/weather_adviser_node/weather_adviser_node.egg-info/SOURCES.txt'
+[1.373s] reading manifest file '../../build/weather_adviser_node/weather_adviser_node.egg-info/SOURCES.txt'
+[1.374s] writing manifest file '../../build/weather_adviser_node/weather_adviser_node.egg-info/SOURCES.txt'
+[1.374s] running build
+[1.374s] running build_py
+[1.375s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build
+[1.375s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib
+[1.375s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node
+[1.375s] copying weather_adviser_node/weather_publisher.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node
+[1.375s] copying weather_adviser_node/__init__.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node
+[1.375s] copying weather_adviser_node/weather_subscriber.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node
+[1.375s] running install
+[1.376s] running install_lib
+[1.378s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node
+[1.378s] copying /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node/weather_publisher.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node
+[1.378s] copying /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node/__init__.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node
+[1.378s] copying /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build/lib/weather_adviser_node/weather_subscriber.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node
+[1.379s] byte-compiling /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node/weather_publisher.py to weather_publisher.cpython-38.pyc
+[1.381s] byte-compiling /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node/__init__.py to __init__.cpython-38.pyc
+[1.381s] byte-compiling /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node/weather_subscriber.py to weather_subscriber.cpython-38.pyc
+[1.381s] running install_data
+[1.382s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/share/ament_index
+[1.382s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/share/ament_index/resource_index
+[1.383s] creating /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/share/ament_index/resource_index/packages
+[1.383s] copying resource/weather_adviser_node -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/share/ament_index/resource_index/packages
+[1.383s] copying package.xml -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/share/weather_adviser_node
+[1.383s] running install_egg_info
+[1.385s] Copying ../../build/weather_adviser_node/weather_adviser_node.egg-info to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages/weather_adviser_node-0.0.0-py3.8.egg-info
+[1.386s] running install_scripts
+[1.409s] Installing weather_publisher script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/weather_adviser_node
+[1.409s] Installing weather_subscriber script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/weather_adviser_node
+[1.410s] writing list of installed files to '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/install.log'
+[1.444s] Invoked command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/src/weather_adviser_node' returned '0': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/weather_adviser_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/weather_adviser_node build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/weather_adviser_node/install.log --install-scripts $base/lib/weather_adviser_node --single-version-externally-managed

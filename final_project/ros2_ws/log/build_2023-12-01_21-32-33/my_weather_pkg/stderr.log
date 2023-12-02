@@ -1,0 +1,2 @@
+package init file 'my_weather_pkg/__init__.py' not found (or not a regular file)
+error: can't copy 'src/my_weather_pkg': doesn't exist or not a regular file

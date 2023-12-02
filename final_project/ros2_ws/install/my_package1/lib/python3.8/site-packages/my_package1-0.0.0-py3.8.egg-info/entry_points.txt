@@ -1,0 +1,3 @@
+[console_scripts]
+my_node1 = my_package1.my_node1:main
+

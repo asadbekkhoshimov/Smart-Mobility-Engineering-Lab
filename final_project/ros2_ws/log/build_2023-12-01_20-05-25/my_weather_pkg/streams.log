@@ -1,0 +1,25 @@
+[1.009s] Invoking command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/src/my_weather_pkg': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_weather_pkg build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/install.log --install-scripts $base/lib/my_weather_pkg --single-version-externally-managed
+[1.322s] running egg_info
+[1.325s] writing ../../build/my_weather_pkg/my_weather_pkg.egg-info/PKG-INFO
+[1.326s] writing dependency_links to ../../build/my_weather_pkg/my_weather_pkg.egg-info/dependency_links.txt
+[1.326s] writing entry points to ../../build/my_weather_pkg/my_weather_pkg.egg-info/entry_points.txt
+[1.326s] writing requirements to ../../build/my_weather_pkg/my_weather_pkg.egg-info/requires.txt
+[1.327s] writing top-level names to ../../build/my_weather_pkg/my_weather_pkg.egg-info/top_level.txt
+[1.384s] reading manifest file '../../build/my_weather_pkg/my_weather_pkg.egg-info/SOURCES.txt'
+[1.385s] writing manifest file '../../build/my_weather_pkg/my_weather_pkg.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.385s] running build_py
+[1.385s] copying my_weather_pkg/weather_publisher.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/build/lib/my_weather_pkg
+[1.386s] running install
+[1.387s] running install_lib
+[1.389s] copying /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/build/lib/my_weather_pkg/weather_publisher.py -> /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/python3.8/site-packages/my_weather_pkg
+[1.391s] byte-compiling /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/python3.8/site-packages/my_weather_pkg/weather_publisher.py to weather_publisher.cpython-38.pyc
+[1.394s] running install_data
+[1.394s] running install_egg_info
+[1.397s] removing '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/python3.8/site-packages/my_weather_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.398s] Copying ../../build/my_weather_pkg/my_weather_pkg.egg-info to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/python3.8/site-packages/my_weather_pkg-0.0.0-py3.8.egg-info
+[1.399s] running install_scripts
+[1.423s] Installing weather_publisher script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/my_weather_pkg
+[1.423s] Installing weather_subscriber script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/my_weather_pkg
+[1.424s] writing list of installed files to '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/install.log'
+[1.461s] Invoked command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/src/my_weather_pkg' returned '0': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/install/my_weather_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_weather_pkg build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/build/my_weather_pkg/install.log --install-scripts $base/lib/my_weather_pkg --single-version-externally-managed

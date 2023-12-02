@@ -1,0 +1,4 @@
+[console_scripts]
+weather_publisher = my_weather_pkg.weather_publisher:main
+weather_subscriber = my_weather_pkg.weather_subscriber:main
+
