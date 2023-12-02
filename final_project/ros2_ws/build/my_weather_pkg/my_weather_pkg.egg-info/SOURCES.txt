@@ -9,6 +9,7 @@ setup.py
 ../../build/my_weather_pkg/my_weather_pkg.egg-info/top_level.txt
 ../../build/my_weather_pkg/my_weather_pkg.egg-info/zip-safe
 launch/weather_launch.py
+my_weather_pkg/__init__.py
 my_weather_pkg/weather_publisher.py
 my_weather_pkg/weather_subscriber.py
 resource/my_weather_pkg
