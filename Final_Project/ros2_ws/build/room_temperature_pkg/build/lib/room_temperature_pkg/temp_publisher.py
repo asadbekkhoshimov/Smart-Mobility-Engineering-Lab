@@ -3,6 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
+
 import random
 
 class RoomTemperaturePublisher(Node):
@@ -17,7 +18,7 @@ class RoomTemperaturePublisher(Node):
         # Simulates temperature values from a sensor in the range 21.0 - 22.9
         temperature = round(random.uniform(21.0, 22.9), 2)
 
-        # Create a Float32 message and publish the temperature
+        # Createing a Float32 message and publishing the temperature
         msg = Float32()
         msg.data = temperature
         self.publisher_.publish(msg)

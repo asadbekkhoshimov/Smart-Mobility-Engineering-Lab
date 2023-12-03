@@ -22,21 +22,27 @@ class WeatherTalkPublisher(Node):
     def publish_weather_info(self):
         if self.requested_city:
             city = self.requested_city
-            api_key = 'YOUR_OPENWEATHER_API_KEY'  # Replace with your OpenWeather API key
+            api_key = '737fb90a05a3b414213f3f230bc9acd1'  # Replace with your OpenWeather API key
 
             try:
-                response = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}')
-                weather_data = response.json()
+                response = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric')
+                if response.status_code == 200:
+                    weather_data = response.json()
 
-                temperature = weather_data['main']['temp']
-                description = weather_data['weather'][0]['description']
-                humidity = weather_data['main']['humidity']
+                    if 'main' in weather_data and 'weather' in weather_data:
+                        temperature = weather_data['main']['temp']  # Already in Celsius
+                        description = weather_data['weather'][0]['description']
+                        humidity = weather_data['main']['humidity']
 
-                msg = String()
-                msg.data = f'Weather in {city}: Temperature: {temperature}K, Description: {description}, Humidity: {humidity}%'
-                self.publisher_.publish(msg)
+                        msg = String()
+                        msg.data = f'City Name: {city}:\n      Temperature: {temperature}°C\n      Description: {description}\n      Humidity: {humidity}%'
+                        self.publisher_.publish(msg)
 
-                self.get_logger().info(f'Published weather information for {city}')
+                        self.get_logger().info(f'Published weather information for {city}')
+                    else:
+                        self.get_logger().error(f'Weather data not available for {city}')
+                else:
+                    self.get_logger().error(f'Error fetching weather data for {city}: {response.status_code}')
             except Exception as e:
                 self.get_logger().error(f'Error fetching weather information: {str(e)}')
             finally:

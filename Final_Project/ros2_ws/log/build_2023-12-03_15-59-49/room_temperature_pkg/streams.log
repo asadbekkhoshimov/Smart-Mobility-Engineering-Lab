@@ -1,0 +1,22 @@
+[1.943s] Invoking command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/src/room_temperature_pkg': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/room_temperature_pkg build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/install.log --install-scripts $base/lib/room_temperature_pkg --single-version-externally-managed
+[2.314s] running egg_info
+[2.316s] writing ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/PKG-INFO
+[2.317s] writing dependency_links to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/dependency_links.txt
+[2.317s] writing entry points to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/entry_points.txt
+[2.317s] writing requirements to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/requires.txt
+[2.318s] writing top-level names to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/top_level.txt
+[2.377s] reading manifest file '../../build/room_temperature_pkg/room_temperature_pkg.egg-info/SOURCES.txt'
+[2.380s] writing manifest file '../../build/room_temperature_pkg/room_temperature_pkg.egg-info/SOURCES.txt'
+[2.381s] running build
+[2.382s] running build_py
+[2.384s] running install
+[2.385s] running install_lib
+[2.386s] running install_data
+[2.387s] running install_egg_info
+[2.389s] removing '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.391s] Copying ../../build/room_temperature_pkg/room_temperature_pkg.egg-info to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg-0.0.0-py3.8.egg-info
+[2.391s] running install_scripts
+[2.422s] Installing temp_publisher script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/room_temperature_pkg/lib/room_temperature_pkg
+[2.422s] Installing temp_subscriber script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/room_temperature_pkg/lib/room_temperature_pkg
+[2.423s] writing list of installed files to '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/install.log'
+[2.468s] Invoked command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/src/room_temperature_pkg' returned '0': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/room_temperature_pkg build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/room_temperature_pkg/install.log --install-scripts $base/lib/room_temperature_pkg --single-version-externally-managed
