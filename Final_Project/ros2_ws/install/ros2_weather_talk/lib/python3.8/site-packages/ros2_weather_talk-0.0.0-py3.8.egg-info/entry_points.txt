@@ -1,0 +1,4 @@
+[console_scripts]
+weather_talk_publisher = ros2_weather_talk.weather_talk_publisher:main
+weather_talk_subscriber = ros2_weather_talk.weather_talk_subscriber:main
+
