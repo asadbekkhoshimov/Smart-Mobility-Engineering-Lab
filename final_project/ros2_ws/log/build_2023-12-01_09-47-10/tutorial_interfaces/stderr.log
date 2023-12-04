@@ -1,8 +1,0 @@
-CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
-  rosidl_generate_interfaces() the passed file 'srv/AddThreeInts.srv' doesn't
-  exist relative to the CMAKE_CURRENT_SOURCE_DIR
-  '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/final_project/ros2_ws/src/tutorial_interfaces'
-Call Stack (most recent call first):
-  CMakeLists.txt:24 (rosidl_generate_interfaces)
-
-

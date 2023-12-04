@@ -1,3 +1,0 @@
-[console_scripts]
-temperature_publisher = temperature_sensor_pkg.temperature_publisher:main
-
