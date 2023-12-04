@@ -1,0 +1,22 @@
+[1.473s] Invoking command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/src/ros2_weather_talk': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/ros2_weather_talk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_weather_talk build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/install.log --install-scripts $base/lib/ros2_weather_talk --single-version-externally-managed
+[1.807s] running egg_info
+[1.808s] writing ../../build/ros2_weather_talk/ros2_weather_talk.egg-info/PKG-INFO
+[1.808s] writing dependency_links to ../../build/ros2_weather_talk/ros2_weather_talk.egg-info/dependency_links.txt
+[1.812s] writing entry points to ../../build/ros2_weather_talk/ros2_weather_talk.egg-info/entry_points.txt
+[1.813s] writing requirements to ../../build/ros2_weather_talk/ros2_weather_talk.egg-info/requires.txt
+[1.813s] writing top-level names to ../../build/ros2_weather_talk/ros2_weather_talk.egg-info/top_level.txt
+[1.866s] reading manifest file '../../build/ros2_weather_talk/ros2_weather_talk.egg-info/SOURCES.txt'
+[1.868s] writing manifest file '../../build/ros2_weather_talk/ros2_weather_talk.egg-info/SOURCES.txt'
+[1.868s] running build
+[1.868s] running build_py
+[1.869s] running install
+[1.869s] running install_lib
+[1.872s] running install_data
+[1.873s] running install_egg_info
+[1.875s] removing '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/ros2_weather_talk/lib/python3.8/site-packages/ros2_weather_talk-0.0.0-py3.8.egg-info' (and everything under it)
+[1.876s] Copying ../../build/ros2_weather_talk/ros2_weather_talk.egg-info to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/ros2_weather_talk/lib/python3.8/site-packages/ros2_weather_talk-0.0.0-py3.8.egg-info
+[1.877s] running install_scripts
+[1.902s] Installing weather_talk_publisher script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/ros2_weather_talk/lib/ros2_weather_talk
+[1.902s] Installing weather_talk_subscriber script to /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/ros2_weather_talk/lib/ros2_weather_talk
+[1.903s] writing list of installed files to '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/install.log'
+[1.946s] Invoked command in '/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/src/ros2_weather_talk' returned '0': PYTHONPATH=/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/prefix_override:/home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/install/ros2_weather_talk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_weather_talk build --build-base /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/build install --record /home/aaaa/Desktop/Smart-Mobility-Engineering-Lab/Final_Project/ros2_ws/build/ros2_weather_talk/install.log --install-scripts $base/lib/ros2_weather_talk --single-version-externally-managed

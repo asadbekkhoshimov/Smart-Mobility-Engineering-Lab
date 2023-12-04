@@ -3,26 +3,40 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import requests
+import speech_recognition as sr
+import time
+import threading
+import click
 
 class WeatherTalkPublisher(Node):
 
     def __init__(self):
         super().__init__('weather_talk_publisher')
         self.publisher_ = self.create_publisher(String, 'weather_info', 10)
-        self.subscription_ = self.create_subscription(String, 'weather_request', self.weather_request_callback, 10)
+        self.recognizer = sr.Recognizer()
         self.requested_city = None
         self.get_logger().info('Weather Talk Publisher Node is up and running.')
 
-    def weather_request_callback(self, msg):
-        self.requested_city = msg.data
-        self.get_logger().info(f'Received weather request for {self.requested_city}')
-        self.publish_weather_info()
+    def recognize_speech(self):
+        # Recognizeing the spoken city name using Google Speech Recognition API
+        with sr.Microphone() as source:
+            self.recognizer.adjust_for_ambient_noise(source, duration=1)
+            self.get_logger().info("Listening for city name...")
+            audio = self.recognizer.listen(source)
+
+        try:
+            self.requested_city = self.recognizer.recognize_google(audio).capitalize()
+            self.get_logger().info(f'Recognized city: {self.requested_city}')
+        except sr.UnknownValueError:
+            self.get_logger().info("Could not understand audio")
+        except sr.RequestError as e:
+            self.get_logger().error(f"Could not request results from Google Speech Recognition service; {e}")
 
     def publish_weather_info(self):
+        # fetching weather information for the recognized city and publishes it
         if self.requested_city:
             city = self.requested_city
-            api_key = '737fb90a05a3b414213f3f230bc9acd1'  # Replace with your OpenWeather API key
+            api_key = '737fb90a05a3b414213f3f230bc9acd1' 
 
             try:
                 response = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric')
@@ -48,12 +62,21 @@ class WeatherTalkPublisher(Node):
             finally:
                 self.requested_city = None
 
-def main(args=None):
-    rclpy.init(args=args)
+    def main_loop(self):
+        # main loop that continuously listens for spoken city names and publishes weather information
+        while rclpy.ok():
+            self.recognize_speech()
+            self.publish_weather_info()
+            time.sleep(5)
+
+@click.command()
+def main():
+    # Initializeing the ROS 2 node and runs the main loop of the WeatherTalkPublisher
+    rclpy.init()
     weather_talk_publisher = WeatherTalkPublisher()
 
     try:
-        rclpy.spin(weather_talk_publisher)
+        weather_talk_publisher.main_loop()
     except KeyboardInterrupt:
         pass
 
@@ -62,3 +85,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+

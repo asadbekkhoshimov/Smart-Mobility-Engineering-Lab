@@ -15,6 +15,7 @@ class WeatherTalkSubscriber(Node):
         self.cities = ['Incheon', 'Seoul', 'London', 'Tashkent']
         self.current_city_index = 0
         self.get_logger().info('Weather Talk Subscriber Node is up and running.')
+        self.all_cities_published = False
 
         request_thread = threading.Thread(target=self.cycle_through_cities)
         request_thread.start()
@@ -22,12 +23,15 @@ class WeatherTalkSubscriber(Node):
     def cycle_through_cities(self):
         while rclpy.ok():
             self.get_logger().info('Listening your request...')
-            time.sleep(5)
+            time.sleep(7)
 
-            city_name = self.cities[self.current_city_index]
-            self.publish_city_name(city_name)
+            if not self.all_cities_published:
+                city_name = self.cities[self.current_city_index]
+                self.publish_city_name(city_name)
 
-            self.current_city_index = (self.current_city_index + 1) % len(self.cities)
+                self.current_city_index += 1
+                if self.current_city_index >= len(self.cities):
+                    self.all_cities_published = True
 
             self.get_logger().info('Listening your next request...')
             time.sleep(5)

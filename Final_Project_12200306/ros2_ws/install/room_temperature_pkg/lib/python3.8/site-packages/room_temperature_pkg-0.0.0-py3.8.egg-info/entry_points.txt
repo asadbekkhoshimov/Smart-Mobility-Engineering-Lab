@@ -1,0 +1,4 @@
+[console_scripts]
+temp_publisher = room_temperature_pkg.temp_publisher:main
+temp_subscriber = room_temperature_pkg.temp_subscriber:main
+
