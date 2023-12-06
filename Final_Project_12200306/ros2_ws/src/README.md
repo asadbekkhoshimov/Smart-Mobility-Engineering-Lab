@@ -27,6 +27,9 @@ Before running this project, ensure that you have the following installed:
     colcon build
     source install/setup.bash
 
+    ![telegram-cloud-photo-size-2-5435879651596686169-x](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/assets/84382619/82e30685-32b7-41ab-bb59-18e9a290d4b0)
+
+
 ## Running:
 
     ros2 run room_temperature_pk weather_talk_publisher.py
